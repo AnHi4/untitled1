@@ -13,7 +13,7 @@ public class Test27 {
         Set<String> set = new HashSet<>();
         // Scanner scanner = new Scanner(System.in);
         //int num = scanner.nextInt();
-        int num = 32;
+        int num = 31;
         for(int i = 2;i < num; i++){
             int modulus = num % i;
             if(modulus>0){
