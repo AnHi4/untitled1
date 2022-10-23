@@ -11,6 +11,7 @@ public class Zaebalo {
         set.add("b");
         set.add("c");
 
+        //test
 //       List
 //        List<String> list1 = new ArrayList<>();
 //        System.out.println(list1.size());
