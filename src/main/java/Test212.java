@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 /*
 Задание: 1. Создай массив чисел.
 2. Добавь в массив 10 чисел с клавиатуры.
@@ -8,13 +10,18 @@
 */
 public class Test212 {
     public static void main(String[] args) {
-        int nums[] = {3, 2, 4, 2, 4};
-        int sum = 0;
-        for (int i = 0; i < nums.length; i++) {
-            sum = sum + nums[i];
-            if (10 > sum) {
-                System.out.println(i + 2);
-            }
+        Scanner scanner = new Scanner(System.in);
+        int size = 10;
+        int[] array = new int[size];
+        System.out.println("Insert array elements:");
+        for (int i = 0; i < size; i++) {
+            array[i] = scanner.nextInt();
         }
+        System.out.print("Inserted array elements:");
+        for (int i = 0; i < size; i++) {
+            System.out.print(" " + array[i]);
+        }
+        int sum = 0;
+        int j = 1;
     }
 }
