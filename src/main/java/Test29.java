@@ -5,11 +5,13 @@
 
 public class Test29 {
     public static void main(String[] args) {
-       int[] nums = {1, 2, 3, 8, 46, 65, 85, 5, 45};
+        int nums[] = {1,2,3,4,5,6,7,8};
         for (int i = 0; i < nums.length; i++) {
-            String check = nums[i] == 5? "'да'" : "'нет'";
-            System.out.println(check);
+            if (nums[i] ==5){
+                System.out.println("да");
+                break;
+            }
+            else System.out.println("нет");
         }
     }
 }
-
