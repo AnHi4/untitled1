@@ -24,7 +24,7 @@ public class Varargs {
         if (nums.length % 2 == 0)
             median = ((double) nums[nums.length / 2] + (double) nums[nums.length / 2 - 1]) / 2;
         else
-            median = (double) nums[nums.length / 2];
+            median = nums[nums.length / 2];
         System.out.println(median);
     }
 }
