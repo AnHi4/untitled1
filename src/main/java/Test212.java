@@ -17,6 +17,7 @@ public class Test212 {
         for (int i = 0; i < size; i++) {
             array[i] = scanner.nextInt();
         }
+        System.out.println();
         System.out.print("Inserted array elements:");
         for (int i = 0; i < size; i++) {
             System.out.print(" " + array[i]);
